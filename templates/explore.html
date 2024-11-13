@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Explorar Categorías</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Explorar Categorías</h1>
+        <ul>
+            {% for category in categories %}
+            <li><a href="{{ url_for('content', category=category) }}">{{ category }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

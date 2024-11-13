@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Progreso del Usuario</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Seguimiento de tu Progreso</h1>
+    <ul>
+        {% for subject, progress in progress_data.items() %}
+            <li>{{ subject }}: {{ progress }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('explore') }}">Volver a explorar</a>
+</body>
+</html>

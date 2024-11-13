@@ -1,0 +1,61 @@
+body {
+   
+        font-family: Arial, sans-serif;
+        background-color: #800080; /* Morado */
+        color: white; /* Letras blancas */
+        padding: 20px;
+        margin: 0; /* Asegúrate de que no haya margen en el body */
+    
+    }
+    
+.cuerpo-titulo{font-family: Arial, sans-serif;
+    background-color: #800080; /* Morado */
+    color: white; /* Letras blancas */
+    padding: 20px;
+    margin: 0; /* Asegúrate de que no haya margen en el body */
+    background-image: url('https://i.pinimg.com/564x/b0/06/72/b006720f9b352195bbcedb7f8fae50cd.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+}
+
+.titulo{
+    color: white; /* Mantener letras de los títulos en blanco */
+    font-size: 60px;
+
+}
+
+h1 {
+    color: white; /* Mantener letras de los títulos en blanco */
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* Altura de la ventana del navegador */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el padding */
+}
+
+li {
+    margin-bottom: 10px; /* Espaciado entre los elementos de la lista */
+}
+
+a {
+    text-decoration: none;
+    color: #1a73e8; /* Color azul para los enlaces */
+    font-size: 18px; /* Tamaño de fuente para los enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff; /* Color blanco al pasar el mouse */
+}
